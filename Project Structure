@@ -1,0 +1,55 @@
+fuel-delivery-management-system/
+│
+├── src/
+│   └── com/
+│       ├── auth/
+│       │   ├── loginAuth.java
+│       │   └── loginDAO.java
+│       │
+│       ├── user/
+│       │   ├── user.java
+│       │   └── userDAO.java
+│       │
+│       ├── fuel/
+│       │   ├── fuel.java
+│       │   └── fuelDAO.java
+│       │
+│       ├── payment/
+│       │   ├── payment.java
+│       │   └── paymentDAO.java
+│       │
+│       ├── delivery/
+│       │   ├── delivery.java
+│       │   └── deliveryDAO.java
+│       │
+│       ├── admin/
+│       │   ├── admin.java
+│       │   └── adminDAO.java
+│       │
+│       ├── db/
+│       │   └── dbconnection.java
+│       │
+│       └── zoo/
+│           └── app.java
+│
+├── database/
+│   └── fuel_delivery_schema.sql
+│
+├── screenshots/
+│   ├── user-login.png
+│   ├── fuel-selection.png
+│   ├── payment.png
+│   ├── delivery-otp.png
+│   └── admin-dashboard.png
+│
+├── README.md
+## Project Structure
+The application follows a layered backend architecture:
+
+- Auth Layer – Handles authentication logic
+- DAO Layer – Database operations using JDBC
+- Model Layer – Entity representations
+- Admin Module – Order & delivery monitoring
+- Database Layer – Centralized DB connection
+
+SQL scripts are included separately for schema and data setup.
